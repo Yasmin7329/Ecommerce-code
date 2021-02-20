@@ -1,0 +1,723 @@
+﻿* {
+    overflow-x: hidden;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.main {
+    width: 100%;
+    height: 2481px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.containerTop {
+    width: 100%;
+    height: 248px;
+    background: rgba(0,0,0,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.computerTop {
+    width: 96px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 180px;
+    left: 343px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.whiteSpace {
+    color: #fff;
+}
+
+.containerMiddleOne {
+    width: 100%;
+    height: 470px;
+    background: rgba(0,0,0,1);
+    opacity: 1;
+    position: absolute;
+    top: 372px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.buttonBuyComputerMiddle {
+    width: 156px;
+    height: 52px;
+    background: rgba(53,183,41,1);
+    opacity: 1;
+    position: absolute;
+    top: 703px;
+    left: 814px;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    overflow: hidden;
+}
+
+.buyLabelMiddle {
+    width: 38px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 715px;
+    left: 873px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 23px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelTelevisionBottom {
+    width: 126px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1303px;
+    left: 166px;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 27px;
+    opacity: 1;
+    text-align: left;
+}
+
+.videogameBottomImage {
+    width: 257px;
+    height: 251px;
+    background: url("../images/v15_2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1037px;
+    left: 405px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    overflow: hidden;
+}
+
+.labelVideogameBottom {
+    width: 157px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1303px;
+    left: 455px;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 27px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelMobileBottom {
+    width: 166px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1303px;
+    left: 765px;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 27px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelAccessoriesBottom {
+    width: 148px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1303px;
+    left: 1098px;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 27px;
+    opacity: 1;
+    text-align: left;
+}
+
+.containerSetupOffice {
+    width: 100%;
+    height: 489px;
+    background: rgba(0,0,0,1);
+    opacity: 1;
+    position: absolute;
+    top: 1525px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.infoSetupOne {
+    width: 470px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 1608px;
+    left: 895px;
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 36px;
+    opacity: 1;
+    text-align: center;
+}
+
+.infoSetupThree {
+    width: 370px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 1767px;
+    left: 945px;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 19px;
+    opacity: 1;
+    text-align: center;
+}
+
+.buttonMoreInfoSetup {
+    width: 218px;
+    height: 60px;
+    background: rgba(53,183,41,1);
+    opacity: 1;
+    position: absolute;
+    top: 1867px;
+    left: 1021px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+}
+
+.labelMoreInfoSetup {
+    width: 142px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 1885px;
+    left: 1059px;
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.logo {
+    width: 393px;
+    height: 182px;
+    background: url("../images/v12_3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 13px;
+    left: 488px;
+    overflow: hidden;
+}
+
+.mobileTop {
+    width: 138px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 180px;
+    left: 531px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.televisionTop {
+    width: 95px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 180px;
+    left: 761px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.videogameTop {
+    width: 125px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 180px;
+    left: 948px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.searchIcon {
+    width: 31px;
+    height: 31px;
+    background: url("../images/v12_4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 198px;
+    left: 1359px;
+    overflow: hidden;
+}
+
+.userloginIcon {
+    width: 40px;
+    height: 40px;
+    background: url("../images/v12_7.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 19px;
+    left: 1278px;
+    overflow: hidden;
+}
+
+.bagIcon {
+    width: 32px;
+    height: 33px;
+    background: url("../images/v12_8.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 26px;
+    left: 1358px;
+    overflow: hidden;
+}
+
+.labelMiddleInfoTwo {
+    width: 496px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 545px;
+    left: 750px;
+    font-family: Roboto;
+    font-weight: Regular;
+    opacity: 1;
+    text-align: center;
+    font-size: 50px;
+}
+
+.televisionImageBottom {
+    width: 251px;
+    height: 251px;
+    background: url("../images/v15_1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1037px;
+    left: 103px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    overflow: hidden;
+}
+
+.mobileImageBottom {
+    width: 265px;
+    height: 251px;
+    background: url("../images/v15_4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1030px;
+    left: 715px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    overflow: hidden;
+}
+
+.accessoriesImageBottom {
+    width: 257px;
+    height: 251px;
+    background: url("../images/v15_5.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1037px;
+    left: 1043px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    overflow: hidden;
+}
+
+.imageSetup {
+    width: 784px;
+    height: 489px;
+    background: url("../images/v15_6.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1525px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.containerEnd {
+    width: 100%;
+    height: 290px;
+    background: rgba(0,0,0,1);
+    opacity: 1;
+    position: absolute;
+    top: 2191px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.messageUserBottomOne {
+    width: 232px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2222px;
+    left: 32px;
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 23px;
+    opacity: 1;
+    text-align: left;
+}
+
+.emailSpaceBottom {
+    width: 396px;
+    height: 42px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 2318px;
+    left: 31px;
+    overflow: hidden;
+}
+
+.buttonSignupBottom {
+    width: 139px;
+    height: 42px;
+    background: rgba(53,183,41,1);
+    opacity: 1;
+    position: absolute;
+    top: 2318px;
+    left: 288px;
+    overflow: hidden;
+}
+
+.labelSignupBottom {
+    width: 67px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2327px;
+    left: 321px;
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelEmailBottom {
+    width: 50px;
+    color: rgba(196,196,196,1);
+    position: absolute;
+    top: 2328px;
+    left: 45px;
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelCustomerService {
+    width: 154px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2255px;
+    left: 765px;
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelContactUs {
+    width: 117px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2295px;
+    left: 765px;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelAboutUs {
+    width: 82px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2255px;
+    left: 989px;
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelCareer {
+    width: 79px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2289px;
+    left: 989px;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelAccount {
+    width: 82px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2250px;
+    left: 1199px;
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelOrderStatus {
+    width: 112px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2284px;
+    left: 1199px;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.messageUserBottomTwo {
+    width: 426px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2253px;
+    left: 32px;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.iconTwitter {
+    width: 34px;
+    height: 36px;
+    background: url("../images/v17_1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2424px;
+    left: 135px;
+    overflow: hidden;
+}
+
+.iconInstagram {
+    width: 34px;
+    height: 36px;
+    background: url("../images/v17_0.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2424px;
+    left: 84px;
+    overflow: hidden;
+}
+
+.iconFacebook {
+    width: 34px;
+    height: 36px;
+    background: url("../images/v17_2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2424px;
+    left: 32px;
+    overflow: hidden;
+}
+
+.homeIcon {
+    width: 50px;
+    height: 50px;
+    background: url("../images/v18_27.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 163px;
+    left: 41px;
+    overflow: hidden;
+}
+
+.whiteScace {
+    color: #fff;
+}
+
+.computerImageMiddle {
+    width: 496px;
+    height: 342px;
+    background: url("../images/v24_11.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 432px;
+    left: 119px;
+    overflow: hidden;
+}
+
+.labelMiddleInfoOne {
+    width: 244px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 503px;
+    left: 876px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+}
+
+.labelHelpCenter {
+    width: 107px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2334px;
+    left: 765px;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelReturnsAndExchanges {
+    width: 184px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2368px;
+    left: 765px;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelCorporateInformation {
+    width: 186px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2334px;
+    left: 989px;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelManageAccount {
+    width: 149px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2333px;
+    left: 1199px;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.learnMoreMiddle {
+    width: 126px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 715px;
+    left: 1051px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 23px;
+    opacity: 1;
+    text-align: left;
+}
+
+.infoSetupTwo {
+    width: 418px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 1721px;
+    left: 921px;
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
