@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yasmi\\Desktop\\Ecommerce - Project\\Ecommerce - code\\Ecommerce\\Ecommerce.csproj",
+      "projectUniqueName": "C:\\Users\\yasmi\\Desktop\\Ecommerce - code\\Ecommerce\\Ecommerce.csproj",
       "projectName": "Ecommerce",
-      "projectPath": "C:\\Users\\yasmi\\Desktop\\Ecommerce - Project\\Ecommerce - code\\Ecommerce\\Ecommerce.csproj",
+      "projectPath": "C:\\Users\\yasmi\\Desktop\\Ecommerce - code\\Ecommerce\\Ecommerce.csproj",
       "packagesPath": "C:\\Users\\yasmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yasmi\\Desktop\\Ecommerce - Project\\Ecommerce - code\\Ecommerce\\obj\\",
+      "outputPath": "C:\\Users\\yasmi\\Desktop\\Ecommerce - code\\Ecommerce\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yasmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
