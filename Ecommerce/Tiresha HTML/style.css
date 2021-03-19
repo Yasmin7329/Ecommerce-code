@@ -1,0 +1,516 @@
+* {
+    /* overflow-x: hidden; */
+    /* padding: 0px !important;
+    margin: 0px !important; */
+
+    /* Remove the above 
+    commented area, otherwise, 
+    the content is not centered*/
+}
+
+.main {
+    width: 100%;
+    height: 2481px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.containerTop {
+    width: 100%;
+    height: 248px;
+    background: rgba(0,0,0,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.logo {
+    width: 393px;
+    height: 182px;
+    background: url("../images/v12_3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 13px;
+    left: 488px;
+    overflow: hidden;
+}
+
+.homeIcon {
+    width: 50px;
+    height: 50px;
+    background: url("../images/v18_27.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 163px;
+    left: 41px;
+    overflow: hidden;
+}
+
+.computerTop {
+    width: 96px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 180px;
+    left: 343px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.mobileTop {
+    width: 138px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 180px;
+    left: 531px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.televisionTop {
+    width: 95px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 180px;
+    left: 761px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.videogameTop {
+    width: 125px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 180px;
+    left: 948px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.userloginIcon {
+    width: 40px;
+    height: 40px;
+    background: url("../images/v12_7.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 19px;
+    left: 1278px;
+    overflow: hidden;
+}
+
+.bagIcon {
+    width: 32px;
+    height: 33px;
+    background: url("../images/v12_8.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 26px;
+    left: 1358px;
+    overflow: hidden;
+}
+
+.searchIcon {
+    width: 31px;
+    height: 31px;
+    background: url("../images/v12_4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 198px;
+    left: 1359px;
+    overflow: hidden;
+}
+
+.whiteSpace {
+    /* color: #fff; */
+    color: lightcoral;
+}
+
+
+
+/*********************************/
+/**************Footer************/
+/*********************************/
+
+.containerEnd {
+    width: 100%;
+    height: 290px;
+    background: rgba(0,0,0,1);
+    opacity: 1;
+    position: absolute;
+    top: 2191px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.messageUserBottomOne {
+    width: 232px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2222px;
+    left: 32px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Medium;
+    font-size: 23px;
+    opacity: 1;
+    text-align: left;
+}
+
+.messageUserBottomTwo {
+    width: 426px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2253px;
+    left: 32px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.emailSpaceBottom {
+    width: 396px;
+    height: 42px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 2318px;
+    left: 31px;
+    overflow: hidden;
+}
+
+.buttonSignupBottom {
+    width: 139px;
+    height: 42px;
+    background: rgba(53,183,41,1);
+    opacity: 1;
+    position: absolute;
+    top: 2318px;
+    left: 288px;
+    overflow: hidden;
+}
+
+.labelSignupBottom {
+    width: 67px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2327px;
+    left: 321px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelEmailBottom {
+    width: 50px;
+    color: rgba(196,196,196,1);
+    position: absolute;
+    top: 2328px;
+    left: 45px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelCustomerService {
+    width: 154px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2255px;
+    left: 765px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelContactUs {
+    width: 117px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2295px;
+    left: 765px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelHelpCenter {
+    width: 107px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2334px;
+    left: 765px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelReturnsAndExchanges {
+    width: 184px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2368px;
+    left: 765px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelAboutUs {
+    width: 82px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2255px;
+    left: 989px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelCareer {
+    width: 79px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2289px;
+    left: 989px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelCorporateInformation {
+    width: 186px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2334px;
+    left: 989px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelAccount {
+    width: 82px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2250px;
+    left: 1199px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.labelOrderStatus {
+    width: 112px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2284px;
+    left: 1199px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+.labelManageAccount {
+    width: 149px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 2333px;
+    left: 1199px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: Light;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+.iconFacebook {
+    width: 34px;
+    height: 36px;
+    background: url("../images/v17_2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2424px;
+    left: 32px;
+    overflow: hidden;
+}
+
+.iconTwitter {
+    width: 34px;
+    height: 36px;
+    background: url("../images/v17_1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2424px;
+    left: 135px;
+    overflow: hidden;
+}
+
+.iconInstagram {
+    width: 34px;
+    height: 36px;
+    background: url("../images/v17_0.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2424px;
+    left: 84px;
+    overflow: hidden;
+}
+
+/***********/
+/* Tiresha */
+/***********/
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+.content{
+  width: 1024px;
+  margin: auto;
+}
+
+.column1{
+    width: 60%;
+    float: left;
+}
+
+.column2{
+    width: 40%;
+    float: right;
+}
+
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+/* Green Button*/
+.buttonGreen {
+    background-color: #4CAF50;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    border-radius: 10px; 
+    font-size: 16px;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+/* Black button*/
+.buttonBlack {
+    background-color:black; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border:none;
+    border-radius: 10px;
+    font-size: 16px;  
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.h1Center{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.h2Center{
+    text-align: center;
+    padding-top: 10px;
+}
+.h3Center{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.signInbtn{
+    margin-top: 30px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    color: white;
+}
+
+.errorMessageLabel{
+    color: red; 
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}

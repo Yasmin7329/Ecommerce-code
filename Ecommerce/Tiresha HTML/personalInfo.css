@@ -1,0 +1,104 @@
+/****************************************/
+/********  Personal Information *********/
+/****************************************/
+
+/* table td {
+    vertical-align: top;
+} */
+
+.personalInfo_section {
+    height: 70%;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:rgb(250, 250, 250);
+}
+
+.personalInfo_SubText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;   
+}
+
+
+.personalInfo_ActualData{
+    padding-left: 150px;
+}
+
+.personalInfo_SubSubText{
+    padding-left: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #a4b1b5;
+    vertical-align: 40px;
+}
+
+.personalInfo_SubSubTextBox{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-indent: 10px;
+}
+
+.personalInfo_SubSubTextBoxIndent{
+    padding-left: 30px;
+}
+
+.personalInfo_Addresspadding{
+    margin-top: 10px;    
+    margin-bottom: 10px;
+}
+
+.personalInfo_SubActualDataText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    vertical-align: text-top;
+    padding-left: 30px;
+}
+
+.persoanlInfo_TextboxMargin{
+    margin-left: 30px;
+}
+
+
+.textbox{
+    font-size: 16px;
+    width: 40px;
+    text-align: center;
+}
+
+.btnAlignment{
+    align-content: center;
+}
+
+.personalInfo_Edit_ErrorMessageLabel{
+    color: red; 
+    font-size: 12px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.editPersonalInfoBtns{
+    margin-right: 30%;
+    margin-left: 30%;    
+}
+
+.personalInfo_CancelBtn{
+    float: left;
+    align-content: left;
+}
+.personalInfo_SubmitlBtn{
+    float: right;
+    align-content: right;
+}
+
+/***  Edit Personal Information ***/
+
+.personalInfo_EditBtn{
+    display: inline-table;
+}
+
+
+

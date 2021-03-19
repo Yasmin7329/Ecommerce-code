@@ -1,0 +1,36 @@
+/****************************************/
+/************* Checkout  ***************/
+/****************************************/
+
+.confirmPayBtn{
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    /* padding: auto;
+    position: absolute;*/
+    margin: initial;
+    padding-left: 50px; 
+    padding-right: 50px;    
+    display: inline-table;
+}
+
+.checkout_PaymentMethod{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.checkout_SubText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.checkout_ShipToAddress{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height-step: 1px;
+}
+
+.checkout_shiptoAddressTable{
+border-collapse: collapse;
+}
+

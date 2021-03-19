@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TechBox - Login/Signup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="LoginSignup.css">
+</head>
+
+<body>
+    <div class="main">
+<!-- Top Area -->
+        <div class="containerTop">
+            <div class="logo"></div>
+            <div class="homeIcon"></div>
+
+            <span class="computerTop">Computer</span>
+            <span class="mobileTop">Mobile phones</span>
+            <span class="televisionTop">Television</span>
+            <span class="videogameTop">Video Games</span>
+
+            <div class="userloginIcon"></div>
+            <div class="bagIcon"></div>
+
+            <div class="searchIcon"></div>
+        </div>
+
+
+<!-- Middle Area -->
+
+        <div class="formLoginSignup">
+            <div class="head" class="signup">
+                <div onclick="changeTab(this)" data-tab="login" class="login-tab">Login</div>
+                <div onclick="changeTab(this)" data-tab="signup" class="signup-tab">Signup</div>
+            </div>
+            <div class="body" id="form-body">
+                <div class="login">
+                    <table style="width: 480px;">
+                        <br><br>
+                        <tr>
+                            <td>
+                                <p class="loginLabel">Email Address</p>
+                            </td>
+                            <td class="login_SubSubTextBoxIndent">
+                                <input type="email" name="Email Address" id="login_Emailaddress" class="login_SubSubTextBox"
+                                    placeholder="Email Address">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p  class="loginLabel">Password</p>
+                            </td>
+                            <td class="login_SubSubTextBoxIndent">
+                                <input type="password" name="loginPassword" id="login_Password" class="login_SubSubTextBox" placeholder="Password">
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <label id="email_Validation" class="errorMessageLabel"></label>
+                    <br>
+                    <label id="password_Validation" class="errorMessageLabel"></label>
+                    <br>
+                    <label id="emailPassword_Validation" class="errorMessageLabel"></label>
+                    <br>
+                    <div class="form-row">
+                        <button class="buttonGreen" onclick="signInValidation()">Login</button>
+                    </div>
+                </div>
+                <div class="signup">
+                    <table style="width: 480px;">
+                        <br><br>
+                        <tr>
+                            <td>
+                                <p class="loginLabel">Name</p>
+                            </td>
+                            <td class="login_SubSubTextBoxIndent">
+                                <input type="text" name="Name" id="signup_Name" class="login_SubSubTextBox"
+                                    placeholder="Name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="loginLabel">Email Address</p>
+                            </td>
+                            <td class="login_SubSubTextBoxIndent">
+                                <input type="email" name="Email Address" id="signup_Emailaddress" class="login_SubSubTextBox"
+                                    placeholder="Email Address">
+                                    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p  class="loginLabel">Password</p>
+                            </td>
+                            <td class="login_SubSubTextBoxIndent">
+                                <input type="password" name="loginPassword" id="signup_Password" class="login_SubSubTextBox" placeholder="Password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p  class="loginLabel">Confirm Password</p>
+                            </td>
+                            <td class="login_SubSubTextBoxIndent">
+                                <input type="password" onkeyup="check()" name="signupPassword" id="signup_ConfirmPassword" onsubmit="signUpValidation()" class="login_SubSubTextBox" placeholder="Confirm Password">
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <label id="name_signUPValidation" class="errorMessageLabel"></label>
+                    <br>
+                    <label id="email_signUPValidation" class="errorMessageLabel"></label>
+                    <br>
+                    <label id="password_signUPValidation" class="errorMessageLabel"></label>
+                    <br>
+                    <label id="confpassword_signUPValidation" class="errorMessageLabel"></label>
+                    <br>
+                    <label id="passwordMessage" class="errorMessageLabel"></label>
+                    <br>
+                    <div class="form-row" >
+
+                        <form  action="/ThankyouForSigningUp.html" method="dialog" onsubmit="signUpValidation()">
+                            <input type="submit" id="signUp" value="Sign Up" class="buttonGreen signInbtn" style="color: white; text-align: center;" >
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            function changeTab(ref) {
+                try {
+                    if (ref.getAttribute("data-tab") == "login") {
+                        document.getElementById("form-body").classList.remove('active');
+                        ref.parentNode.classList.remove('signup');
+                    } else {
+                        document.getElementById("form-body").classList.add('active');
+                        ref.parentNode.classList.add('signup');
+                    }
+                } catch (msg) {
+                    console.log(msg);
+                }
+            }
+
+            function signInValidation(){
+                var text;
+                //Email Address Validation
+                if (document.getElementById('login_Emailaddress').value == "") {
+                        text = "*Email should not be Empty";
+                        document.getElementById('login_Emailaddress').style.borderColor = "red";
+                    } else {
+                        text = "";
+                        document.getElementById('login_Emailaddress').style.borderColor = "";
+                    }
+                    document.getElementById("email_Validation").innerHTML = text;
+                
+                
+            //Password Validation
+            if (document.getElementById('login_Password').value == "") {
+                    text = "*Password should not be Empty";
+                    document.getElementById('login_Password').style.borderColor = "red";
+                } else {
+                    text = "";
+                    document.getElementById('login_Password').style.borderColor = "";
+                }
+                document.getElementById("password_Validation").innerHTML = text;
+            
+        }
+
+        function signUpValidation(){
+            var text;
+            //Name Validation
+            if (document.getElementById('signup_Name').value == "") {
+                        text = "*Email should not be Empty";
+                        document.getElementById('signup_Name').style.borderColor = "red";
+                    } else {
+                        text = "";
+                        document.getElementById('signup_Name').style.borderColor = "";
+                    }
+                    document.getElementById("name_signUPValidation").innerHTML = text;
+                
+                
+            //Email Address Validation
+            if (document.getElementById('signup_Emailaddress').value == "") {
+                    text = "*Password should not be Empty";
+                    document.getElementById('signup_Emailaddress').style.borderColor = "red";
+                } else {
+                    text = "";
+                    document.getElementById('signup_Emailaddress').style.borderColor = "";
+                }
+                document.getElementById("email_signUPValidation").innerHTML = text;
+
+                //Password Validation
+                if (document.getElementById('signup_Password').value == "") {
+                        text = "*Email should not be Empty";
+                        document.getElementById('signup_Password').style.borderColor = "red";
+                    } else {
+                        text = "";
+                        document.getElementById('signup_Password').style.borderColor = "";
+                    }
+                    document.getElementById("password_signUPValidation").innerHTML = text;
+                
+                
+            //Confirm Password Validation
+            if (document.getElementById('signup_ConfirmPassword').value == "") {
+                    text = "*Password should not be Empty";
+                    document.getElementById('signup_ConfirmPassword').style.borderColor = "red";
+                } else {
+                    text = "";
+                    document.getElementById('signup_ConfirmPassword').style.borderColor = "";
+                }
+                document.getElementById("confpassword_signUPValidation").innerHTML = text;
+
+                
+        }
+
+        var check = function() {
+            if (document.getElementById('signup_Password').value ==
+                document.getElementById('signup_ConfirmPassword').value) {
+                    document.getElementById('').disabled = false;
+            } else {
+                document.getElementById('passwordMessage').style.color = 'red';
+                document.getElementById('passwordMessage').innerHTML = '*Passwords are not matching';
+                document.getElementById('').disabled = true;
+            }
+            }
+        
+            
+        </script>
+
+        
+
+
+
+<!-- Footer -->
+        <div class="containerEnd"></div>
+        <span class="messageUserBottomOne">Be the first to know</span>
+        <span class="messageUserBottomTwo">Sign up to stay in the loop about the hottest deals, coolest new products, and
+            exclusive sales events.</span>
+        <div class="emailSpaceBottom"></div>
+        <div class="buttonSignupBottom"></div>
+        <span class="labelSignupBottom">sign up</span>
+        <span class="labelEmailBottom">Email</span>    
+        
+        <span class="labelCustomerService">Customer service</span>
+        <span class="labelContactUs">Contact Us</span>
+        <span class="labelHelpCenter">Help Center</span>
+        <span class="labelReturnsAndExchanges">Returns & Exchanges</span>
+        
+        <span class="labelAboutUs">About us</span>
+        <span class="labelCareer">Careers</span>
+        <span class="labelCorporateInformation">Corporate Information</span>
+        
+        <span class="labelAccount">Account</span>
+        <span class="labelOrderStatus">Order Status</span>
+        <span class="labelManageAccount">Manage Account</span>
+        
+        <div class="iconFacebook"></div>
+        <div class="iconInstagram"></div>
+        <div class="iconTwitter"></div>
+        </div>
+        
+    </div>
+</body>
+</html>

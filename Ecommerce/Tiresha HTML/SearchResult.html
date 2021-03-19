@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TechBox - Search Results</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="searchResults.css">
+</head>
+
+<body>
+    <div class="main">
+        <!-- Top Area -->
+        <div class="containerTop">
+            <div class="logo"></div>
+            <div class="homeIcon"></div>
+
+            <span class="computerTop">Computer</span>
+            <span class="mobileTop">Mobile phones</span>
+            <span class="televisionTop">Television</span>
+            <span class="videogameTop">Video Games</span>
+
+            <div class="userloginIcon"></div>
+            <div class="bagIcon"></div>
+
+            <div class="searchIcon"></div>
+        </div>
+
+
+        <!-- Middle Area -->
+        <div class="content">
+            <div>
+                <h1>Search Results</h1>
+                <div>                    
+                    <input type="text" name="search" placeholder="What are you looking for?" class="searchBar">
+                </div>
+
+                <div class="searchPageLeftPane">
+                    <br><br><br>
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <link rel="stylesheet"
+                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                    <div class="sidenav">
+                        <div>
+                            <button class="dropdown-btn" id="dropdown-btn">Categories
+                                <i class="fa fas fa-caret-down" id="icon" onclick="dropdownUp(this)"></i>
+                            </button>
+                            <div class="dropdown-container">
+                                <p><a href="#" class="btn" onclick="filterSelection('cars')"> Cars</a></p>
+                                <p><a href="#" class="btn" onclick="filterSelection('animals')"> Animals</a></p>
+                                <p><a href="#" class="btn" onclick="filterSelection('fruits')"> Fruits</a></p>
+                                <p><a href="#" class="btn" onclick="filterSelection('colors')"> Colors</a></p>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="dropdown-btn" id="toggle">Discount
+                                <i class="fa fas fa-caret-down " onclick="dropdownUp(this)"></i>
+                            </button>
+                            <div class="dropdown-container btn">
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                <label for="vehicle1"> I have a bike</label><br>
+                                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                                <label for="vehicle2"> I have a car</label><br>
+                                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                <label for="vehicle3"> I have a boat</label><br><br>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="dropdown-btn" id="toggle">Status
+                                <i class="fa fas fa-caret-down " onclick="dropdownUp(this)"></i>
+                            </button>
+                            <div class="dropdown-container btn">
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Male</label><br>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Female</label><br>
+                                <input type="radio" id="other" name="gender" value="other">
+                                <label for="other">Other</label>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="dropdown-btn" id="toggle">Brands
+                                <i class="fa fas fa-caret-down " onclick="dropdownUp(this)"></i>
+                            </button>
+                            <div class="dropdown-container">
+                                <p><a href="#" class="btn" onclick="filterSelection('cars')"> Cars</a></p>
+                                <p><a href="#" class="btn" onclick="filterSelection('animals')"> Animals</a></p>
+                                <p><a href="#" class="btn" onclick="filterSelection('fruits')"> Fruits</a></p>
+                                <p><a href="#" class="btn" onclick="filterSelection('colors')"> Colors</a></p>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="dropdown-btn" id="toggle">Sellers
+                                <i class="fa fas fa-caret-down " onclick="dropdownUp(this)"></i>
+                            </button>
+                            <div class="dropdown-container">
+                                <p><a href="#" class="btn" onclick="filterSelection('cars')"> Cars</a></p>
+                                <p><a href="#" class="btn" onclick="filterSelection('animals')"> Animals</a></p>
+                                <p><a href="#" class="btn" onclick="filterSelection('fruits')"> Fruits</a></p>
+                                <p><a href="#" class="btn" onclick="filterSelection('colors')"> Colors</a></p>
+                            </div>
+                        </div>
+                        <br><br>
+                        <button class="buttonGreen filterBtn">Filter</button>
+                    </div>
+
+                </div>
+                <!-- <hr class="line"> -->
+                <div class="searchPageRightPane">
+                    <br><br><br>
+                    <div class="resultTopBar">
+                        <div>
+                            <span class="results sortAreaText"> 4 Results</span>
+                            <div class="sortAreaText sort">Sort
+                                <select name="sortValues" id="sortValues" class="sortLabel">
+                                    <option value="volvo">Best Match</option>
+                                    <option value="saab">Price Low - High</option>
+                                    <option value="opel">Price High - Low</option>
+                                    <option value="audi">Highest Rated</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="searchResults">
+                        <table>
+                            <tr>
+                                <td class="seachResultCell">
+                                    <div>
+                                        <img src="/images/14771998.jpg" alt="Model14-fq0008ca" class="resultImage">
+                                        <p class="itemName">HP 14" Laptop - Natural Silver (AMD 3020e/64GB eMMC/4GB
+                                            RAM/Windows 10
+                                            S)</p>
+                                        <div class="star">
+                                            <span class="fa fas fa-star fa-2x checked"></span>
+                                            <span class="fa fas fa-star fa-2x checked"></span>
+                                            <span class="fa fas fa-star-o fa-2x unchecked"></span>
+                                            <span class="fa fas fa-star-o fa-2x unchecked"></span>
+                                            <span class="fa fas fa-star-o fa-2x unchecked"></span>
+                                        </div>
+                                        <p class="price">$729.99</p>
+                                        <p class="saleprice">Save $10.00</p>
+                                    </div>
+                                </td>
+                                <td class="seachResultCell">
+                                    <div>
+                                        <img src="/images/14771998.jpg" alt="Model14-fq0008ca" class="resultImage">
+                                        <p class="itemName">HP 14" Laptop - Natural Silver (AMD 3020e/64GB eMMC/4GB
+                                            RAM/Windows 10
+                                            S)</p>
+                                        <div class="star">
+                                            <span class="fa fas fa-star fa-2x checked"></span>
+                                            <span class="fa fas fa-star fa-2x checked"></span>
+                                            <span class="fa fas fa-star fa-2x checked"></span>
+                                            <span class="fa fas fa-star-o fa-2x unchecked"></span>
+                                            <span class="fa fas fa-star-o fa-2x unchecked"></span>
+                                        </div>
+                                        <p class="price">$729.99</p>
+                                        <p class="saleprice">Save $10.00</p>
+                                    </div>
+                                </td>
+                                <td class="seachResultCell">
+                                    <div>
+                                        <img src="/images/14771998.jpg" alt="Model14-fq0008ca" class="resultImage">
+                                        <p class="itemName">HP 14" Laptop - Natural Silver (AMD 3020e/64GB eMMC/4GB
+                                            RAM/Windows 10
+                                            S)</p>
+                                        <div class="star">
+                                            <span class="fa fas fa-star fa-2x checked"></span>
+                                            <span class="fa fas fa-star fa-2x checked"></span>
+                                            <span class="fa fas fa-star fa-2x checked"></span>
+                                            <span class="fa fas fa-star fa-2x checked"></span>
+                                            <span class="fa fas fa-star-o fa-2x unchecked"></span>
+                                        </div>
+                                        <p class="price">$729.99</p>
+                                        <p class="saleprice">Save $10.00</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="seachResultCell">
+                                    <div>
+                                        <img src="/images/14771998.jpg" alt="Model14-fq0008ca" class="resultImage">
+                                        <p class="itemName">HP 14" Laptop - Natural Silver (AMD 3020e/64GB eMMC/4GB
+                                            RAM/Windows 10
+                                            S)</p>
+                                        <div class="star">
+                                            <span class="fa fas fa-star fa-2x checked"></span>
+                                            <span class="fa fas fa-star fa-2x checked"></span>
+                                            <span class="fa fas fa-star fa-2x checked"></span>
+                                            <span class="fa fas fa-star fa-2x checked"></span>
+                                            <span class="fa fas fa-star fa-2x checked"></span>
+                                        </div>
+                                        <p class="price">$729.99</p>
+                                        <p class="saleprice">Save $10.00</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function dropdownUp(x) {
+                x.classList.toggle("fa-caret-up");
+            }
+
+            /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+            var dropdown = document.getElementsByClassName("dropdown-btn");
+            var i;
+
+            for (i = 0; i < dropdown.length; i++) {
+                dropdown[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var dropdownContent = this.nextElementSibling;
+                    if (dropdownContent.style.display === "block") {
+                        dropdownContent.style.display = "none";
+                    } else {
+                        dropdownContent.style.display = "block";
+                    }
+                });
+            }
+
+            // From this code block >>> https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements 
+
+            filterSelection("all")
+            function filterSelection(c) {
+                var x, i;
+                x = document.getElementsByClassName("filterDiv");
+                if (c == "all") c = "";
+                for (i = 0; i < x.length; i++) {
+                    w3RemoveClass(x[i], "show");
+                    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                }
+            }
+
+            function w3AddClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+                }
+            }
+
+            function w3RemoveClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    while (arr1.indexOf(arr2[i]) > -1) {
+                        arr1.splice(arr1.indexOf(arr2[i]), 1);
+                    }
+                }
+                element.className = arr1.join(" ");
+            }
+
+            // Add active class to the current button (highlight it)
+            var btnContainer = document.getElementById("myBtnContainer");
+            var btns = btnContainer.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function () {
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                });
+            }
+        </script>
+
+
+
+
+
+
+
+        <!-- Footer -->
+        <div class="containerEnd"></div>
+        <span class="messageUserBottomOne">Be the first to know</span>
+        <span class="messageUserBottomTwo">Sign up to stay in the loop about the hottest deals, coolest new products,
+            and
+            exclusive sales events.</span>
+        <div class="emailSpaceBottom"></div>
+        <div class="buttonSignupBottom"></div>
+        <span class="labelSignupBottom">sign up</span>
+        <span class="labelEmailBottom">Email</span>
+
+
+
+
+
+        <span class="labelCustomerService">Customer service</span>
+        <span class="labelContactUs">Contact Us</span>
+        <span class="labelHelpCenter">Help Center</span>
+        <span class="labelReturnsAndExchanges">Returns & Exchanges</span>
+
+        <span class="labelAboutUs">About us</span>
+        <span class="labelCareer">Careers</span>
+        <span class="labelCorporateInformation">Corporate Information</span>
+
+        <span class="labelAccount">Account</span>
+        <span class="labelOrderStatus">Order Status</span>
+        <span class="labelManageAccount">Manage Account</span>
+
+
+
+
+        <div class="iconFacebook"></div>
+        <div class="iconInstagram"></div>
+        <div class="iconTwitter"></div>
+
+    </div>
+</body>
+
+</html>

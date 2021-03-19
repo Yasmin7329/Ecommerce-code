@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TechBox - Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="checkOut.css">
+    <link rel="stylesheet" href="cartPage.css">
+</head>
+
+<body>
+    <div class="main">
+<!-- Top Area -->
+        <div class="containerTop">
+            <div class="logo"></div>
+            <div class="homeIcon"></div>
+
+            <span class="computerTop">Computer</span>
+            <span class="mobileTop">Mobile phones</span>
+            <span class="televisionTop">Television</span>
+            <span class="videogameTop">Video Games</span>
+
+            <div class="userloginIcon"></div>
+            <div class="bagIcon"></div>
+
+            <div class="searchIcon"></div>
+        </div>
+
+
+<!-- Middle Area -->
+        <div class="content">
+            <div>
+                <h1>Checkout</h1>
+                <div class="column1">                    
+                    <table>
+                        <tr>
+                            <div class="checkout_PaymentMethod ">
+                                <input type="radio" id="cash" name="paymentMethod" value="Cash">
+                                <label for="Cash">Cash</label><br> <br> <br>
+                                <input type="radio" id="creditCard" name="paymentMethod" value="CreditCard">
+                                <label for="creditCard">Credit Card</label><br><br> <br>
+                            </div>
+                        </tr>
+                    </table>
+
+                    <table class="">
+                        <tr>
+                            <td>
+                                <p class="checkout_SubText">Ship To</p>
+                                <p class="checkout_ShipToAddress">Name</p>
+                                <p class="checkout_ShipToAddress"> Address Line 1</p>
+                                <p class="checkout_ShipToAddress">City, Province, Postal Code</p>
+                                <p class="checkout_ShipToAddress">Country</p>
+                                <p class="checkout_ShipToAddress">Phone Number</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <h2>Item Summary</h2>
+                    <table class="cart_table">
+                        <tr id="row1">
+                            <td><img src="/images/14771998.jpg" alt="Model14-fq0008ca" class="img_Cart"></td>
+                            <td>
+                                <h3 class="cartitem_name">HP 14" Laptop - Natural Silver (AMD 3020e/64GB eMMC/4GB RAM/Windows 10
+                                    S)</h3>
+                                <p class="cartitem_model">Computer Notebook</p>
+                                <p class="cartitem_quantity">Quantity &ensp; <strong> 1</strong></p>
+                                <p class="cartitem_price">$729.99</p>
+                                <button class="buttonGreen removeItemBtn " onclick="deleteRowFunction(this)">Remove Item</button>                                
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="column2">
+                    <h2 class="ordersummaryTxt">Order Summary</h2>
+                    <table class="order_table">
+                        <tr>
+                            <td class="text_align_left">Sub Total</td>
+                            <td class="text_align_right">$753.20</td>
+                        </tr>
+                        <tr>
+                            <td class="text_align_left">Tax</td>
+                            <td class="text_align_right">$2.60</td>
+                        </tr>
+                        <tr>
+                            <td class="text_align_left">Delivery Cost</td>
+                            <td class="text_align_right">$45.20</td>
+                        </tr>
+                        <tr>
+                            <td class="text_align_left">Total</td>
+                            <td class="text_align_right">$798.20</td>
+                        </tr>
+                    </table>
+                    <!-- <br class="br_ordersummary"> -->
+                    <div class="cartOrdSummaryBtns">
+                        <div>
+                            <a href="/CartPage.html" class="buttonBlack confirmPayBtn">Confirm & Pay</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>            
+        </div>
+
+        
+        <script>
+            function deleteRowFunction(o) {
+             var p=o.parentNode.parentNode;
+                 p.parentNode.removeChild(p);
+            }            
+        </script>
+        
+
+
+
+<!-- Footer -->
+        <div class="containerEnd"></div>
+            <span class="messageUserBottomOne">Be the first to know</span>
+            <span class="messageUserBottomTwo">Sign up to stay in the loop about the hottest deals, coolest new products, and
+                exclusive sales events.</span>
+            <div class="emailSpaceBottom"></div>
+            <div class="buttonSignupBottom"></div>
+            <span class="labelSignupBottom">sign up</span>
+            <span class="labelEmailBottom">Email</span>
+        
+        
+        
+        
+        
+            <span class="labelCustomerService">Customer service</span>
+            <span class="labelContactUs">Contact Us</span>
+            <span class="labelHelpCenter">Help Center</span>
+            <span class="labelReturnsAndExchanges">Returns & Exchanges</span>
+        
+            <span class="labelAboutUs">About us</span>
+            <span class="labelCareer">Careers</span>
+            <span class="labelCorporateInformation">Corporate Information</span>
+        
+            <span class="labelAccount">Account</span>
+            <span class="labelOrderStatus">Order Status</span>
+            <span class="labelManageAccount">Manage Account</span>
+        
+        
+        
+        
+            <div class="iconFacebook"></div>
+            <div class="iconInstagram"></div>
+            <div class="iconTwitter"></div>
+        
+    </div>
+</body>
+</html>

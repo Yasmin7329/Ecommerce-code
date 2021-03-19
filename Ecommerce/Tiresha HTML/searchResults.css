@@ -1,0 +1,196 @@
+/****************************************/
+/************ Search Results ************/
+/****************************************/
+
+/*Search Bar*/
+.searchBar {
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('images/black-search-icon-png-9.jpg');
+    background-size: 25px 25px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+ .searchBar:focus {
+    width: 100%;
+  }
+
+/* Seperating the page */
+.searchPageLeftPane{
+    width: 20%;
+    float: left;
+}
+
+.searchPageRightPane{
+    width: 80%;
+    float: right;
+}
+
+/* Filteration Area */
+.sidenav{
+    overflow-x: hidden;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+    padding-top: 5px;
+  }
+
+  .dropdown-btn {
+    padding: 10px 8px 10px 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    
+  }
+
+  .dropdown-container {
+    display: none;
+    padding-left: 8px;
+    overflow: initial;
+  }
+
+.btn {    
+    border: none; 
+    padding-left: 16px;
+  }
+
+.dropdown-container p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .dropdown-container input {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+ .filterBtn{
+    display: table;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+  /* Line in between the sections */
+.line{
+    width: 1062.02px;
+    height: 0px;
+    left: 408.5px;
+    top: 28.99px;
+
+    border: 1px solid #000000;
+    transform:rotate(90deg);
+}
+
+/* Result section */
+.resultTopBar{
+    float: left;
+    width: 789.188px;
+    height: 57px;
+    left: 24px;
+    top: 20px;
+    margin-left: 30px;
+    background: #F0F0F0;
+}
+
+.results{
+    margin-left: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: inline-block;
+}
+
+.sortAreaText{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.dropdownBox{
+    position: relative;
+    height: 100%;
+}
+
+.sort{
+    float:right;
+    margin-right: 30px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    /* display: inline-block; */
+    
+}
+
+.searchResults{
+    width: 789.188px;
+    left: 24px;
+    top: 20px;
+    margin-left: 30px;
+}
+
+.seachResultCell{
+    width: 33.33%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.resultImage{
+    width: 100%;
+}
+.itemName{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+}
+
+.checked {
+    color:#4CAF50;
+  }
+
+.unchecked {
+    color:#4CAF50;
+  }
+
+.star{
+    display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price{
+    font-size: 24px ;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.saleprice{
+    color: #b51b1b;
+    text-align: unset;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
